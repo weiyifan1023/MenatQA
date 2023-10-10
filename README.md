@@ -73,7 +73,7 @@ For example, You can evaluate "LLAMA" LLMs to run the `src/test_llama_time.py` s
 ```
 
 Prompt methods and tool comparison tools, as described in the paper, refer to the scripts of "LLAMA" and "ChatGPT" for reference.
-
+The time comparison tool is implemented based on Langchain. You can further optimize or customize your tool in the `agent/` file by following the instructions in the official documentation at https://python.langchain.com/docs/get_started/introduction.
 
 ## Framework
 ![Image text](https://github.com/weiyifan1023/MenatQA/blob/main/time%20tool.png)
