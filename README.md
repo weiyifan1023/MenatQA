@@ -8,7 +8,8 @@ This is the repository for the EMNLP 2023 paper [MenatQA: A New Dataset for Test
 
 ## Citation
 If you use this code for your research, please kindly cite our EMNLP 2023 paper:
-'''
+
+```
 @misc{wei2023menatqa,
       title={MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models}, 
       author={Yifan Wei and Yisong Su and Huanhuan Ma and Xiaoyan Yu and Fangyu Lei and Yuanzhe Zhang and Jun Zhao and Kang Liu},
@@ -17,7 +18,7 @@ If you use this code for your research, please kindly cite our EMNLP 2023 paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-'''
+```
 
 ## Contact
 
