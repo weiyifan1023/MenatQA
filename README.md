@@ -6,12 +6,12 @@ This is the repository for the EMNLP 2023 paper [MenatQA: A New Dataset for Test
 
 ## Code Usage
 
-First please change the working directory to `src/`.
-
-You should first set up your API key in the `src/my_api_secrets.py` file, 
+First you should first set up your API key in the `src/my_api_secrets.py` file, 
 and then make sure to pre-configure the checkpoints storage path for LLMs in the `config/model_config.py` file.
 
-Then, please choose specific LLMs for execution based on corresponding file names. 
+And then, please change the working directory to `src/`.
+
+Next, please choose specific LLMs for execution based on corresponding file names. 
 For example, You can evaluate "LLAMA" LLMs to run the `src/test_llama_time.py` script.
 
 Prompt methods and tool comparison tools, as described in the paper, refer to the scripts of "LLAMA" and "ChatGPT" for reference.
