@@ -2,6 +2,7 @@
 This is the repository for the EMNLP 2023 paper [MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models](https://arxiv.org/pdf/2310.05157.pdf)
 
 This paper presents a new dataset, MenatQA, for testing the time comprehension and reasoning abilities of large language models (LLMs).
+
 ![Image text](https://github.com/weiyifan1023/MenatQA/blob/main/time_example.png)
 
 we consider three temporal factors, i.e., scope factor, order factor, and counterfactual factor. After testing multiple models on this dataset, we find that LLMs may fall behind smaller temporal reasoning models. Also, scope factor and counterfactual factor generally impact more on LLMs, and LLMs struggle more with reasoning compared with extractions. 
