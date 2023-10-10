@@ -49,23 +49,12 @@ Running Training (Hard)
     python -m FiD.main mode=train dataset=hard model_path=/data2/wenhu/Time-Sensitive-QA/FiD/pretrained_models/nq_reader_base/
 ```
 
-Running Evaluation (Hard)
-```
-    python -m FiD.main mode=eval cuda=3 dataset=hard model_path=[YOUR_MODEL] 
-```
-
 
 #### Initialize from TriviaQA checkpoint
 Running Training (Hard)
 ```
     python -m FiD.main mode=train dataset=hard model_path=/data2/wenhu/Time-Sensitive-QA/FiD/pretrained_models/tqa_reader_base/
 ```
-
-Running Evaluation (Hard)
-```
-    python -m FiD.main mode=eval cuda=3 dataset=hard model_path=[YOUR_MODEL] 
-```
-
 
 
 So far, you can evaluate Fine-tuning models on MenatQA.
@@ -78,10 +67,12 @@ And then, please change the working directory to `src/`.
 
 Next, please choose specific LLMs for execution based on corresponding file names. 
 For example, You can evaluate "LLAMA" LLMs to run the `src/test_llama_time.py` script.
+```
+    python3 test_llama_time.py
+```
 
 Prompt methods and tool comparison tools, as described in the paper, refer to the scripts of "LLAMA" and "ChatGPT" for reference.
 
-For build the retriever,
 
 ## Framework
 ![Image text](https://github.com/weiyifan1023/MenatQA/blob/main/time%20tool.png)
