@@ -82,10 +82,11 @@ The time comparison tool is implemented based on Langchain. You can further opti
 If you use this code for your research, please kindly cite our EMNLP 2023 paper:
 
 ```
-@article{wei2023menatqa,
+@inproceedings{wei2023menatqa,
   title={MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models},
   author={Wei, Yifan and Su, Yisong and Ma, Huanhuan and Yu, Xiaoyan and Lei, Fangyu and Zhang, Yuanzhe and Zhao, Jun and Liu, Kang},
-  journal={arXiv preprint arXiv:2310.05157},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={1434--1447},
   year={2023}
 }
 ```
