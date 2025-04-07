@@ -93,4 +93,4 @@ If you use this code for your research, please kindly cite our EMNLP 2023 paper:
 
 ## Contact
 
-Yifan Wei: weiyifan2021@ia.ac.cn (Preferred)  &&  weiyifan21@mails.ucas.ac.cn 
+Yifan Wei: weiyifan2021@ia.ac.cn   &&  weiyifan21@mails.ucas.ac.cn (Preferred)
